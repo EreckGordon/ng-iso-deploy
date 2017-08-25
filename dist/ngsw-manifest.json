@@ -1,0 +1,43 @@
+{
+  "external": {
+    "urls": [
+      {
+        "url": "https://fonts.googleapis.com/css?family=Roboto"
+      },
+      {
+        "url": "https://fonts.googleapis.com/icon?family=Material+Icons"
+      }
+    ]
+  },
+  "static.versioned": [
+    "\\.[0-9a-z]{20}\\."
+  ],
+  "routing": {
+    "index": "/index.html",
+    "routes": {
+      "/": {
+        "prefix": false
+      },
+      "/blog": {
+        "prefix": true
+      },
+      "/about": {
+        "prefix": false
+      }
+    }
+  },
+  "static": {
+    "urls": {
+      "/polyfills.b34cdce617d6172a3f78.bundle.js": "051092711918e112e72d2d528e3a8b833e9ecde6",
+      "/main.849e89d3ae1341d60ddc.bundle.js": "0aa47c5628535adf71f5f221d251f7477a6504fa",
+      "/sw-register.6819cd2c5fa25470ecf2.bundle.js": "50d549edfbd188ed199d8d0b079afa593202e3ea",
+      "/inline.c0728128668293ebc50d.bundle.js": "89fe5402027db42e280f5fbf866ee14afbb6fd09",
+      "/styles.dd45572f7c0ea6317414.bundle.css": "70c86d3ffcfc96d92ff2582f3957eb9457bd77ac",
+      "/assets/logo-512x512.png": "11fbc7458515abd3fe1fb39d5ab9e4c77d9ec3bb",
+      "/favicon.ico": "84161b857f5c547e3699ddfbffc6d8d737542e01",
+      "/manifest.json": "06e7b0333021670d3b48875d6aeebc2b665c73c4",
+      "/index.html": "4b94c925a5fc20dbfe6dd295b2f27ce314cc9cba"
+    },
+    "_generatedFromWebpack": true
+  }
+}
